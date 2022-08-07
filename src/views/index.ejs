@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Primer Pagina con Node</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <%- include("partials/navigation") %>
+    <!-- MAIN CONTENT -->
+    <header
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img
+          src="/img/yo.jpg"
+          class="w-25 m-auto animated bounceIn"
+          alt="Website Logo"
+        />
+        <h1 class="display-1 my-5 text-uppercase fw-bold">Stefano Straga</h1>
+        <a href="/about" class="btn btn-primary w-25">Acerca de mi</a>
+      </div>
+    </header>
+
+    <!-- section one -->
+    <div class="container-fluid" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-md-4 offset-md-4">
+          <h3>Página creada para practicar Node.Js</h3>
+          <p>
+            La página la hice siguiendo un tutorial de Youtube para aprender un poco de Node, ya que son mis primeros pasos con el y quería practicarlo un poco, se me complico un poco pero esta muy bueno, con practica se va a ir mejorando. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <%- include("partials/navigation") %>
+
+    <!-- My Content -->
+    <main
+      class="container pt-2 text-center d-flex justify-content-center align-items-center vh-100"
+    >
+      <section>
+        <h1 class="display-1">Acerca de mi</h1>
+
+        <p>
+          Me llamo Stefano Straga, tengo 22 años y soy de Córdoba, Argentina. Soy un estudiante autodidacta apasionado por la programación, me encuentro estudiando para ser un desarrollador Full-stack, pero me interesaría más centrarme en lo que es el Backend, actualmente me gusta mucho C# y SQL server, pero puedo hacer las dos cosas si es necesario.
+          Empecé a estudiar programación cuando empezó la cuarentena, en ese momento no tenía ni idea de como era esto, poco a poco, haciendo cursos, y haciendo codigo, fui entendiendo acerca de este mundo y desde ese día supe que esto era para mi. Estoy en constante aprendizaje y eso me encanta, aprender cada día una cosa nueva me fascina , escribir código ya es una parte de mi vida.
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+  </body>
+</html>
